@@ -1,7 +1,8 @@
-import axios from 'axios';
+import axios from "axios";
 
-const api = axios.create({
-  baseURL: 'http://localhost:3333'
+export const baseUrl = "https://api-instagram-leo.herokuapp.com";
+export const api = axios.create({
+  baseURL: baseUrl
 });
 
-export default api;
+export default { api, baseUrl };
