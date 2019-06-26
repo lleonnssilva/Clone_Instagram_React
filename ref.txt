@@ -1,3 +1,10 @@
 yarn create react-app frontend
 cd frontend
 code .
+
+--Heroku
+heroku login
+heroku create appname
+heroku add .
+heroku commit -m 'teste'
+heroku push -u heroku master
